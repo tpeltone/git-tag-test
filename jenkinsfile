@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+
+    stages {
+        stage ("Compile stage") {
+            steps {
+                sh echo "====++++Compile Hello Tomi Peltonen++++===="
+            }
+        }
+
+        stage ("Test stage") {
+            steps {
+                sh echo "====++++Test Hello Tomi Peltonen++++===="
+            }
+        }
+
+        stage ("Deploy stage") {
+            steps {
+                sh echo "====++++Deploy Hello Tomi Peltonen++++===="
+            }
+        }        
+    }
+
+}
