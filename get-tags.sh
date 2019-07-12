@@ -9,4 +9,4 @@ echo $sha1
 echo $ver
 echo $longver
 
-#git tag -a -m "Version 0.0.1" v0.0.1 $sha1
+git tag -a -m "Version 0.0.1" v0.0.1 $sha1
